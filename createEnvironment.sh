@@ -160,6 +160,14 @@
 	echo ""
 	echo ""
 	echo ""
+# Install remixd
+	echo "Installing remixd"
+	echo "--------------------------------------------------------"
+	sudo npm install -g remixd
+	echo ""
+	echo ""
+	echo ""
+	echo ""
 # Install Alastria testnet regular node
 	echo "Installing Alastria testnet regular node"
 	echo "--------------------------------------------------------"
