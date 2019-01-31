@@ -43,13 +43,14 @@
 	echo ""
 	echo ""
 	echo ""
-# Install vim, ranger, htop
-	echo "Installing vim, ranger, htop..."
+# Install vim, ranger, htop, lnav
+	echo "Installing vim, ranger, htop, lnav..."
 	echo "--------------------------------------------------------"
 	sudo apt -y install \
 	vim \
 	ranger \
-	htop
+	htop \
+	lnav
 	echo ""
 	echo ""
 	echo ""
@@ -155,6 +156,30 @@
 	echo "Installing Ganache-cli"
 	echo "--------------------------------------------------------"
 	sudo npm install -g ganache-cli
+	echo ""
+	echo ""
+	echo ""
+	echo ""
+# Install Mocha & Chai
+	echo "Installing mocha and chai"
+	echo "--------------------------------------------------------"
+	sudo npm install -g mocha chai
+	echo ""
+	echo ""
+	echo ""
+	echo ""
+# Install Request
+	echo "Installing Request http server"
+	echo "--------------------------------------------------------"
+	sudo npm install -g request
+	echo ""
+	echo ""
+	echo ""
+	echo ""
+# Install Express 
+	echo "Installing Express website framework "
+	echo "--------------------------------------------------------"
+	sudo npm install -g express
 	echo ""
 	echo ""
 	echo ""
