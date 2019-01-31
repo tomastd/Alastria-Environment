@@ -1,5 +1,4 @@
 #!/bin/bash
-
 	clear
 # Update System
 	echo "Updating system..."
@@ -137,7 +136,7 @@
 	echo ""
 	echo ""
 # Install Web3
-	echo "Installing solc"
+	echo "Installing web3"
 	echo "--------------------------------------------------------"
 	sudo npm install -g web3
 	echo ""
@@ -168,6 +167,23 @@
 	echo ""
 	echo ""
 	echo ""
+# Install colored logs and outputs
+	echo "Installing log-color-highlight"
+	echo "--------------------------------------------------------"
+	sudo npm install -g log-color-highlight
+	sudo npm install -g chalk
+	echo ""
+	echo ""
+	echo ""
+	echo ""
+# Install typescript
+#	echo "Installing typescript"
+#	echo "--------------------------------------------------------"
+#	sudo npm install -g typescript
+#	echo ""
+#	echo ""
+#	echo ""
+#	echo ""
 # Install Alastria testnet regular node
 	echo "Installing Alastria testnet regular node"
 	echo "--------------------------------------------------------"
@@ -194,4 +210,8 @@
 	sudo apt -y autoclean
 	echo ""
 	echo ""
-	echo "Finished"
+	echo "Finished!"
+	echo ""
+	echo ""
+	echo ""
+	echo ""
