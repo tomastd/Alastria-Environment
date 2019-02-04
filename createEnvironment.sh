@@ -184,6 +184,14 @@
 	echo ""
 	echo ""
 	echo ""
+# Install React 
+	echo "Installing React"
+	echo "--------------------------------------------------------"
+	sudo npm install -g create-react-app
+	echo ""
+	echo ""
+	echo ""
+	echo ""
 # Install remixd
 	echo "Installing remixd"
 	echo "--------------------------------------------------------"
