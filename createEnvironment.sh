@@ -44,13 +44,14 @@
 	echo ""
 	echo ""
 # Install vim, ranger, htop, lnav
-	echo "Installing vim, ranger, htop, lnav..."
+	echo "Installing vim, ranger, htop, lnav, python3-pip..."
 	echo "--------------------------------------------------------"
 	sudo apt -y install \
 	vim \
 	ranger \
 	htop \
-	lnav
+	lnav \
+	pytho3-pip
 	echo ""
 	echo ""
 	echo ""
@@ -218,6 +219,10 @@
 #	echo ""
 #	echo ""
 #	echo ""
+# Install Mythril
+	echo "Installing Mythril"
+	echo "--------------------------------------------------------"
+	pip3 install mythril
 # Install Alastria testnet regular node
 	echo "Installing Alastria testnet regular node"
 	echo "--------------------------------------------------------"
