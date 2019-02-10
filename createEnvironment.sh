@@ -114,6 +114,7 @@
 	echo "--------------------------------------------------------"
 	sudo snap install code-insiders --classic
 	code-insiders --install-extension juanblanco.solidity
+	code-insiders --install-extension xgwang.mythril
 	echo ""
 	echo ""
 	echo ""
