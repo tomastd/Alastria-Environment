@@ -51,7 +51,7 @@
 	ranger \
 	htop \
 	lnav \
-	pytho3-pip
+	python3-pip
 	echo ""
 	echo ""
 	echo ""
@@ -162,8 +162,8 @@
 	echo "Installing Ganache-cli"
 	echo "--------------------------------------------------------"
 	sudo npm install -g ganache-cli
-	sudo wget -P $HOME/.local/bin https://github.com/trufflesuite/ganache/releases/download/v1.3.0/ganache-1.3.0-x86_64.AppImage
-	sudo chmod a+x $HOME/.local/bin/ganache-1.3.0-x86_64.AppImage
+	sudo wget -P $HOME/Applications https://github.com/trufflesuite/ganache/releases/download/v1.3.0/ganache-1.3.0-x86_64.AppImage
+	sudo chmod a+x $HOME/Applications/ganache-1.3.0-x86_64.AppImage
 	echo ""
 	echo ""
 	echo ""
