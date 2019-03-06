@@ -116,6 +116,10 @@
 	sudo snap install code-insiders --classic
 	code-insiders --install-extension juanblanco.solidity
 	code-insiders --install-extension xgwang.mythril
+	code-insiders --install-extension coenraads.bracket-pair-colorizer-2
+	code-insiders --install-extension dbaeumer.vscode-eslint
+	code-insiders --install-extension esbenp.prettier-vscode
+	code-insiders --install-extension burkeholland.simple-react-snippets
 	echo ""
 	echo ""
 	echo ""
